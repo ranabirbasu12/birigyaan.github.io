@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563088969832">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563089206139">
   <folder name="css">
     <file name="site_global.css" crc="502315979"/>
-    <file name="index.css" crc="3799571216" ref="index"/>
+    <file name="index.css" crc="253371069" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="roboto-v19-latin-700.woff" crc="77384580"/>
@@ -42,5 +42,5 @@
     <file name="u112-6.png" crc="3983186839" ref="index"/>
     <file name="u121-6.png" crc="4104730500" ref="index"/>
   </folder>
-  <file name="index.html" crc="4140291214" seo="true" mt="1563088863730" redirect="true"/>
+  <file name="index.html" crc="4055553785" seo="true" mt="1563089200250" redirect="true"/>
 </manifest>
