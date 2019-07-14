@@ -1,7 +1,13 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563090279134">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563136029100">
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="403263631" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="211064704" seo="true" mt="1563135976746" redirect="true"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="3807468935"/>
-    <file name="index.css" crc="4151177441" ref="index"/>
+    <file name="index.css" crc="76534198" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="roboto-v19-latin-700.woff" crc="77384580"/>
@@ -25,22 +31,31 @@
     <file name="ranabirbasu_internshalaresume.pdf" crc="4190131676" seo="true" mt="1563069691000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="340535759" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="4286661555" ref="index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
-    <file name="require.js" crc="7928878" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index"/>
+    <file name="museutils.js" crc="340535759" ref="index:phone>index"/>
+    <file name="whatinput.js" crc="86476730" ref="index:phone>index"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:phone>index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:phone>index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:phone>index"/>
+    <file name="require.js" crc="7928878" ref="index:phone>index"/>
   </folder>
   <folder name="images">
-    <file name="42467743_1961809980578234_486514709671968768_n.jpg" crc="4134616871" seo="true" ref="index">
+    <file name="42467743_1961809980578234_486514709671968768_n.jpg" crc="4134616871" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="u1100-8.png" crc="184446055" ref="index"/>
     <file name="u115-5.png" crc="63929221" ref="index"/>
     <file name="u112-6.png" crc="3983186839" ref="index"/>
     <file name="u121-6.png" crc="4104730500" ref="index"/>
+    <file name="asset 2@2x.png" crc="3924707632" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="asset 1.png" crc="3777538459" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3818909077" seo="true" mt="1563090221157" redirect="true"/>
+  <file name="index.html" crc="9269647" seo="true" mt="1563135496677" redirect="true"/>
 </manifest>
