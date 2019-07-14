@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563070247291">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563088969832">
   <folder name="css">
     <file name="site_global.css" crc="502315979"/>
-    <file name="index.css" crc="357042040" ref="index"/>
+    <file name="index.css" crc="3799571216" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="roboto-v19-latin-700.woff" crc="77384580"/>
@@ -37,13 +37,10 @@
     <file name="42467743_1961809980578234_486514709671968768_n.jpg" crc="4134616871" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u112-7.png" crc="3983186839" ref="index"/>
-    <file name="u121-7.png" crc="4104730500" ref="index"/>
     <file name="u1100-8.png" crc="184446055" ref="index"/>
-    <file name="1200px-adobe_muse_cc_iconsvg.jpg" crc="4145386651" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="u115-5.png" crc="63929221" ref="index"/>
+    <file name="u112-6.png" crc="3983186839" ref="index"/>
+    <file name="u121-6.png" crc="4104730500" ref="index"/>
   </folder>
-  <file name="index.html" crc="24308407" seo="true" mt="1563070197428" redirect="true"/>
+  <file name="index.html" crc="4140291214" seo="true" mt="1563088863730" redirect="true"/>
 </manifest>
