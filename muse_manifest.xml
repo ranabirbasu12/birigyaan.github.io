@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563136029100">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563136230290">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="403263631" ref="phone>index"/>
@@ -7,7 +7,7 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3807468935"/>
-    <file name="index.css" crc="76534198" ref="index"/>
+    <file name="index.css" crc="4159468640" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="roboto-v19-latin-700.woff" crc="77384580"/>
@@ -42,7 +42,6 @@
   <folder name="images">
     <file name="42467743_1961809980578234_486514709671968768_n.jpg" crc="4134616871" seo="true" ref="index:phone>index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="u1100-8.png" crc="184446055" ref="index"/>
     <file name="u115-5.png" crc="63929221" ref="index"/>
@@ -57,5 +56,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="9269647" seo="true" mt="1563135496677" redirect="true"/>
+  <file name="index.html" crc="3767280507" seo="true" mt="1563136222619" redirect="true"/>
 </manifest>
