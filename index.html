@@ -15,8 +15,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   
   <title>Home</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=502315979"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=253371069" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3807468935"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4151177441" id="pagesheet"/>
     <!--custom head HTML-->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <style>
@@ -32,7 +32,8 @@ html {overflow-x: hidden;}
  <body>
 
   <div class="rounded-corners clearfix" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pabout"><!-- column -->
+   <div class="clearfix grpelem" id="ptop"><!-- column -->
+    <a class="anchor_item colelem" id="top"></a>
     <a class="anchor_item colelem" id="about"></a>
     <a class="anchor_item colelem" id="skills"></a>
     <a class="anchor_item colelem" id="experience"></a>
@@ -52,23 +53,15 @@ html {overflow-x: hidden;}
     <div class="clearfix colelem" id="u1863-4"><!-- content -->
      <p>Skills:</p>
     </div>
-    <div class="clearfix colelem" id="u1901"><!-- group -->
-     <div class="grpelem" id="u1821"><!-- simple frame --></div>
-     <div class="clearfix grpelem" id="pu1827"><!-- column -->
-      <div class="colelem" id="u1827"><!-- simple frame --></div>
-      <div class="colelem" id="u1833"><!-- simple frame --></div>
-     </div>
-     <div class="grpelem" id="u1836"><!-- simple frame --></div>
-    </div>
     <div class="colelem" id="u1345"><!-- simple frame --></div>
    </div>
    <div class="clearfix grpelem" id="pu349"><!-- group -->
     <div class="clearfix mse_pre_init" id="u349"><!-- group -->
-     <div class="grpelem" id="u275"><!-- simple frame --></div>
+     <div class="ose_pre_init grpelem" id="u275"><!-- simple frame --></div>
      <div class="rounded-corners clip_frame grpelem" id="u303"><!-- image -->
       <img class="block" id="u303_img" src="images/42467743_1961809980578234_486514709671968768_n.jpg?crc=4134616871" alt="" width="203" height="203"/>
      </div>
-     <div class="clearfix grpelem" id="u320-10"><!-- content -->
+     <div class="clearfix ose_pre_init grpelem" id="u320-10"><!-- content -->
       <p>Hi! I am Ranabir!</p>
       <p>I am an enthusiastic learner who is yet in a fix about his future. Unfortunately I couldn't get into an IIT. I am now in my sophomore year of college, and busy learning all the things I can get my hands onto.</p>
       <p>I just made this website. Go on...Have a look!</p>
@@ -90,6 +83,14 @@ html {overflow-x: hidden;}
      </div>
      <a class="nonblock nontext Button shadow rounded-corners clearfix ose_pre_init colelem" id="buttonu1546" href="assets/ranabirbasu_internshalaresume.pdf" target="_blank"><!-- container box --><div class="clearfix grpelem" id="u1547-4"><!-- content --><p>Download complete CV</p></div></a>
     </div>
+    <div class="clearfix mse_pre_init" id="u1901"><!-- group -->
+     <div class="grpelem" id="u1821"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="pu1827"><!-- column -->
+      <div class="colelem" id="u1827"><!-- simple frame --></div>
+      <div class="colelem" id="u1833"><!-- simple frame --></div>
+     </div>
+     <div class="grpelem" id="u1836"><!-- simple frame --></div>
+    </div>
    </div>
    <div class="verticalspacer" data-offset-top="3386" data-content-above-spacer="3441" data-content-below-spacer="258"></div>
    <div class="clearfix grpelem" id="pu1765"><!-- group -->
@@ -100,6 +101,12 @@ html {overflow-x: hidden;}
      <div class="clearfix grpelem" id="u1320-8"><!-- content -->
       <p><span id="u1320">Email ID:</span><span id="u1320-2"> ranabirbasu12@gmail.com</span></p>
       <p><span id="u1320-4">Phone:</span><span id="u1320-5"> +919007340609</span></p>
+     </div>
+    </div>
+    <div class="clearfix grpelem" id="u2006"><!-- group -->
+     <div class="pointer_cursor rounded-corners clearfix grpelem" id="u2000"><!-- group -->
+      <a class="block anim_swing" href="index.html#top"><!-- Block link tag --></a>
+      <a class="nonblock nontext anim_swing clearfix grpelem" id="u2003-4" href="index.html#top"><!-- content --><p>Go to the top</p></a>
      </div>
     </div>
    </div>
@@ -136,17 +143,20 @@ Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $('#u104-4').registerOpacityScrollEffect([{"fade":53.05,"in":[-Infinity,141.9],"opacity":100},{"in":[141.9,141.9],"opacity":100},{"fade":50,"in":[141.9,Infinity],"opacity":0}]);/* scroll effect */
-$('#u127-6').registerOpacityScrollEffect([{"fade":36.09999999999998,"in":[-Infinity,178],"opacity":100},{"in":[178,178],"opacity":100},{"fade":18.750000000000014,"in":[178,Infinity],"opacity":0}]);/* scroll effect */
+$('#u127-6').registerOpacityScrollEffect([{"fade":36.1,"in":[-Infinity,178],"opacity":100},{"in":[178,178],"opacity":100},{"fade":18.75,"in":[178,Infinity],"opacity":0}]);/* scroll effect */
+$('#u275').registerOpacityScrollEffect([{"fade":119.9,"in":[-Infinity,403.9],"opacity":0},{"in":[403.9,403.9],"opacity":49},{"fade":50,"in":[403.9,Infinity],"opacity":49}]);/* scroll effect */
+$('#u320-10').registerOpacityScrollEffect([{"fade":85.75,"in":[-Infinity,453],"opacity":0},{"in":[453,453],"opacity":49},{"fade":50,"in":[453,Infinity],"opacity":49}]);/* scroll effect */
 $('#u349').registerPositionScrollEffect([{"in":[-Infinity,847.9],"speed":[0,1]},{"in":[847.9,Infinity],"speed":[0,6]}]);/* scroll effect */
 $('#u375').registerPositionScrollEffect([{"in":[-Infinity,2129.6],"speed":[0,1]},{"in":[2129.6,Infinity],"speed":[0,6]}]);/* scroll effect */
 $('#u378').registerPositionScrollEffect([{"in":[-Infinity,2868.3],"speed":[0,1]},{"in":[2868.3,Infinity],"speed":[0,6]}]);/* scroll effect */
-$('#u1022-4').registerOpacityScrollEffect([{"fade":83.64999999999998,"in":[-Infinity,433.5],"opacity":20},{"in":[433.5,433.5],"opacity":100},{"fade":81,"in":[433.5,Infinity],"opacity":100}]);/* scroll effect */
-$('#u1021-5').registerOpacityScrollEffect([{"fade":76.94999999999999,"in":[-Infinity,568.2],"opacity":0},{"in":[568.2,568.2],"opacity":100},{"fade":75,"in":[568.2,Infinity],"opacity":100}]);/* scroll effect */
+$('#u1022-4').registerOpacityScrollEffect([{"fade":83.65,"in":[-Infinity,433.5],"opacity":20},{"in":[433.5,433.5],"opacity":100},{"fade":81,"in":[433.5,Infinity],"opacity":100}]);/* scroll effect */
+$('#u1021-5').registerOpacityScrollEffect([{"fade":76.95,"in":[-Infinity,568.2],"opacity":0},{"in":[568.2,568.2],"opacity":100},{"fade":75,"in":[568.2,Infinity],"opacity":100}]);/* scroll effect */
 $('#buttonu1546').registerOpacityScrollEffect([{"fade":50,"in":[-Infinity,552],"opacity":0},{"in":[552,552],"opacity":100},{"fade":181,"in":[552,Infinity],"opacity":100}]);/* scroll effect */
 $('#u1552').registerPositionScrollEffect([{"in":[-Infinity,385.95],"speed":[0,-3]},{"in":[385.95,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u112-6').registerOpacityScrollEffect([{"fade":223,"in":[-Infinity,1830.3],"opacity":0},{"in":[1830.3,1830.3],"opacity":100},{"fade":411.9500000000003,"in":[1830.3,Infinity],"opacity":0}]);/* scroll effect */
-$('#u115-5').registerOpacityScrollEffect([{"fade":173.5,"in":[-Infinity,312.4],"opacity":0},{"in":[312.4,312.4],"opacity":100},{"fade":464.00000000000006,"in":[312.4,Infinity],"opacity":0}]);/* scroll effect */
-$('#u121-6').registerOpacityScrollEffect([{"fade":298,"in":[-Infinity,2538.7],"opacity":0},{"in":[2538.7,2538.7],"opacity":100},{"fade":326.8000000000002,"in":[2538.7,Infinity],"opacity":0}]);/* scroll effect */
+$('#u1901').registerPositionScrollEffect([{"in":[-Infinity,1477],"speed":[0,1]},{"in":[1477,Infinity],"speed":[0,6]}]);/* scroll effect */
+$('#u112-6').registerOpacityScrollEffect([{"fade":223,"in":[-Infinity,1830.3],"opacity":0},{"in":[1830.3,1830.3],"opacity":100},{"fade":411.95,"in":[1830.3,Infinity],"opacity":0}]);/* scroll effect */
+$('#u115-5').registerOpacityScrollEffect([{"fade":173.5,"in":[-Infinity,312.4],"opacity":0},{"in":[312.4,312.4],"opacity":100},{"fade":464,"in":[312.4,Infinity],"opacity":0}]);/* scroll effect */
+$('#u121-6').registerOpacityScrollEffect([{"fade":298,"in":[-Infinity,2538.7],"opacity":0},{"in":[2538.7,2538.7],"opacity":100},{"fade":326.8,"in":[2538.7,Infinity],"opacity":0}]);/* scroll effect */
 $('#u1053').registerPositionScrollEffect([{"in":[-Infinity,432.75],"speed":[0,0]},{"in":[432.75,Infinity],"speed":[0,0]}]);/* scroll effect */
 $('#u1818').registerPositionScrollEffect([{"in":[-Infinity,42.05],"speed":[0,1]},{"in":[42.05,Infinity],"speed":[0,0]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
