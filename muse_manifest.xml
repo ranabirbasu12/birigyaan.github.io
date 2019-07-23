@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563136410148">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ranabirbasu12.githib.io" resolutions="1x" timestamp="1563901023513">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="403263631" ref="phone>index"/>
@@ -6,8 +6,8 @@
     <file name="index.html" crc="211064704" seo="true" mt="1563135976746" redirect="true"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3807468935"/>
-    <file name="index.css" crc="4159468640" ref="index"/>
+    <file name="site_global.css" crc="502315979"/>
+    <file name="index.css" crc="144812735" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="roboto-v19-latin-700.woff" crc="77384580"/>
@@ -43,7 +43,6 @@
     <file name="42467743_1961809980578234_486514709671968768_n.jpg" crc="4134616871" seo="true" ref="index:phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u1100-8.png" crc="184446055" ref="index"/>
     <file name="u115-5.png" crc="63929221" ref="index"/>
     <file name="u112-6.png" crc="3983186839" ref="index"/>
     <file name="u121-6.png" crc="4104730500" ref="index"/>
@@ -55,6 +54,15 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
+    <file name="facebook_logos_png19754.png" crc="4228600934" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="instagram-png-instagram-logo-512.png" crc="4051312490" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="linkedin_png38.png" crc="80093238" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3767280507" seo="true" mt="1563136222619" redirect="true"/>
+  <file name="index.html" crc="4111928269" seo="true" mt="1563900956459" redirect="true"/>
 </manifest>
