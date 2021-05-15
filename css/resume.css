@@ -191,7 +191,7 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
   iframe{
-    position: absolute;
+    margin: auto;
     top:0;
     left: 0;
     width: 100%;
